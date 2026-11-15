@@ -67,3 +67,7 @@ h3{font-family:"Bricolage Grotesque",sans-serif;font-size:1.25rem;margin:1.5rem 
 .cartographer-card a{font-size:.95rem}
 @media (max-width:760px){.map-grid,.cartographer-grid{grid-template-columns:1fr}}
 @media (max-width:480px){.cartographer-card{flex-direction:column}.cartographer-card img{width:5rem;height:5rem;flex-basis:5rem}}
+.bars{margin:1rem 0 .4rem}.bar{display:grid;grid-template-columns:9.5rem 1fr 3.2rem;gap:.6rem;align-items:center;font-size:.95rem;margin:.3rem 0}
+.bar .track{background:var(--bg2);height:.9rem;border-radius:.45rem;overflow:hidden}.bar .track span{display:block;height:100%;background:var(--slab);border-radius:.45rem}.bar .val{text-align:right;font-family:"Bricolage Grotesque",sans-serif;font-weight:700}
+.tblwrap{overflow-x:auto;margin:1rem 0}.tbl{border-collapse:collapse;width:100%;font-size:.95rem}.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:.55rem .7rem;text-align:left;vertical-align:top}.tbl th{font-family:"Bricolage Grotesque",sans-serif;background:var(--bg2)}
+@media (max-width:520px){.bar{grid-template-columns:7rem 1fr 3rem}}
